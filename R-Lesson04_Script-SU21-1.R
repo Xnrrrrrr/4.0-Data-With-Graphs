@@ -1,7 +1,8 @@
 #****************************
 #Step 1: Specify a folder as the working directory using the following command.
 
-setwd("~/Documents/LABS")
+setwd("C:/Users/Bank/Documents/rLAB")
+
 
 # In this example, LABS folder created in Documents is set as the working directory. You can specify any folder on your computer as the working directory.
 
@@ -86,3 +87,18 @@ successBarchart + stat_summary (fun.y=mean, geom="bar")
 
 successBarchart + stat_summary (fun.y=mean, geom="bar", position="dodge")
 
+# lab4.data <- read.csv("lab4-1.csv", header = TRUE)
+
+#plot1 <- ggplot(lab4.data, aes(x = data_type, y = num_people))
+#plot1 + geom_boxplot()
+
+#hist <- ggplot(lab4.data, aes(x = num_people))
+
+#hist + geom_histogram(binwidth = 0.4) + labs(x = "Number of People (in millions)", y = "Frequency")
+
+#scatter1 <- ggplot(lab4.data, aes(x = num_people, y = fin_loss)) 
+#scatter1 + geom_point()
+
+#bar1 <- ggplot(lab4.data, aes(x = num_people_v2, y = fin_loss, fill = per_sensitive_v2))
+
+#bar1 + stat_summary(fun.y = mean, geom = "bar", position = "dodge")
